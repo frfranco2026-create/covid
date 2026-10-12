@@ -1,0 +1,12 @@
+[Unit]
+Description=Covid Spring Boot app
+After=network.target
+
+[Service]
+User=ec2-user
+ExecStart=/usr/bin/java -jar /home/ec2-user/covid.jar
+SuccessExitStatus=143
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
