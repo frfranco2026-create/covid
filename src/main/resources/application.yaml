@@ -1,3 +1,6 @@
 spring:
   application:
     name: covid
+
+server:
+  port: 8081
