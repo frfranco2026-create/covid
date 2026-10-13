@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        EC2_HOST = '52.27.155.199'
+        EC2_HOST = '34.222.160.63'
         EC2_USER = 'ec2-user'
     }
 
